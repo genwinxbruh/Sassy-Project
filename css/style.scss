@@ -1,0 +1,14 @@
+$colors: (
+    primary: #b0afe9,
+    accent: #e45b5b,
+    font: #fff
+);
+
+body {
+    background-color: map-get($colors, primary);
+    color: map-get($colors, font);
+}
+
+p {
+    background-color: map-get($colors, accent )
+}
