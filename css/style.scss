@@ -49,11 +49,16 @@ header {
 main {
     section#mainimage {
         background-color:color(accent);
-        padding-top: 15px;
+        padding: 20px;
         margin: 1em auto;
         width: 80%;
         color: color(font);
         border-radius: 15px;
+        
+        img {
+            background-color: color(font);
+        }
+
         p {
             margin: 0;
             padding: 0;

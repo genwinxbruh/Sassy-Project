@@ -27,11 +27,15 @@ header a {
 
 main section#mainimage {
   background-color: #da2828;
-  padding-top: 15px;
+  padding: 20px;
   margin: 1em auto;
   width: 80%;
   color: #fff;
   border-radius: 15px;
+}
+
+main section#mainimage img {
+  background-color: #fff;
 }
 
 main section#mainimage p {
